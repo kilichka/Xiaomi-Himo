@@ -1,0 +1,115 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+li {
+  padding-left: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #131313;
+}
+
+.container {
+  max-width: 1220px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+
+.header-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu {
+  margin-right: 70px;
+}
+
+.menu-list {
+  display: flex;
+}
+
+.menu-item + .menu-item {
+  padding-left: 10px;
+}
+
+.menu-link {
+  text-transform: uppercase;
+  padding: 43px 20px;
+  transition: all 0.3s;
+}
+
+.menu-link:hover {
+  background-color: #131313;
+  color: #ffffff;
+}
+
+.bike {
+  padding: 100px 0 150px;
+}
+
+.bike-inner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.bike-column + .bike-column {
+  flex-basis: 630px;
+  margin-left: 30px;
+}
+
+.bike-title {
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 77px;
+  margin: 60px 0 5px;
+}
+
+.bike-subtitle {
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 39px;
+  color: #6f6f6f;
+  margin: 0 0 60px;
+}
+
+.bike-text {
+  max-width: 420px;
+  margin-bottom: 20px;
+}
+
+.bike-link {
+  margin-top: 60px;
+  display: inline-block;
+  background-color: #131313;
+  padding: 28px 81px;
+  text-transform: uppercase;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 1.1em;
+  text-transform: uppercase;
+  color: #ffffff;
+  transition: all 0.3s;
+}
+
+.bike-link:hover {
+  background-color: #ff4040;
+}

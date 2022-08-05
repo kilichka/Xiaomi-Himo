@@ -19,6 +19,10 @@ a {
   color: inherit;
 }
 
+p {
+  margin: 0;
+}
+
 body {
   font-family: "Inter", sans-serif;
   font-weight: 400;
@@ -170,5 +174,90 @@ body {
   line-height: 15px;
   text-transform: lowercase;
   margin: auto 0;
+}
+
+.info {
+  margin-bottom: 150px;
+}
+
+.info-inner {
+  display: flex;
+}
+
+.info-img {
+  margin-right: 60px;
+  flex-basis: 570px;
+}
+
+.info-list {
+  flex-basis: 490px;
+}
+
+.info-item + .info-item {
+  padding-top: 50px;
+}
+
+.info-item-title {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  text-transform: uppercase;
+  margin: 0 0 10px;
+}
+
+.info-item-text {
+  max-width: 450px;
+}
+
+.characteristics {
+  margin-bottom: 150px;
+}
+
+.characteristics-title {
+  margin: 0 0 40px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  text-transform: uppercase;
+}
+
+.characteristics-inner {
+  display: flex;
+}
+
+.characteristics-img {
+  align-self: center;
+}
+
+.characteristics-items {
+  flex-basis: 570px;
+  margin-right: 60px;
+}
+
+.characteristics-list + .characteristics-list {
+  padding-top: 30px;
+}
+
+.characteristics-item-title {
+  padding: 2px 0 3px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #ffffff;
+  background-color: #131313;
+  margin-bottom: 10px;
+}
+
+.characteristics-line {
+  display: flex;
+  padding-top: 5px;
+}
+
+.characteristics-name {
+  flex-basis: 285px;
+  padding-right: 20px;
+}
+
+.characteristics-descr {
+  flex-basis: 285px;
 }
 
